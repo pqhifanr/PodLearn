@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4CD3D2DF23015864007A25AE /* PodLearn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD3D2DD23015864007A25AE /* PodLearn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CD3D2E623015AAB007A25AE /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3D2E523015AAB007A25AE /* First.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4CD3D2DA23015864007A25AE /* PodLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD3D2DD23015864007A25AE /* PodLearn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodLearn.h; sourceTree = "<group>"; };
 		4CD3D2DE23015864007A25AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD3D2E523015AAB007A25AE /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				4CD3D2DD23015864007A25AE /* PodLearn.h */,
 				4CD3D2DE23015864007A25AE /* Info.plist */,
+				4CD3D2E523015AAB007A25AE /* First.swift */,
 			);
 			path = PodLearn;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					4CD3D2D923015864007A25AE = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD3D2E623015AAB007A25AE /* First.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		4CD3D2E323015864007A25AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ifanr.ifanr.PodLearn;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +293,7 @@
 		4CD3D2E423015864007A25AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
