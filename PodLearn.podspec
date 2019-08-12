@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PodLearn'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '学习 pod'
  
   s.description      = <<-DESC
