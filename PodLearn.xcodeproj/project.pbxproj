@@ -7,15 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C722BA623016F8A00F79016 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BA423016F8A00F79016 /* AlipaySDK.framework */; };
+		4C722BA723016F8A00F79016 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C722BA523016F8A00F79016 /* AlipaySDK.bundle */; };
+		4C722BA9230170BC00F79016 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BA8230170BC00F79016 /* libc++.tbd */; };
+		4C722BAB230170C700F79016 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BAA230170C700F79016 /* libz.tbd */; };
+		4C722BAD230170CF00F79016 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BAC230170CF00F79016 /* SystemConfiguration.framework */; };
+		4C722BAF230170D900F79016 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BAE230170D900F79016 /* CoreTelephony.framework */; };
+		4C722BB1230170E700F79016 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BB0230170E700F79016 /* CoreText.framework */; };
+		4C722BB3230170EE00F79016 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BB2230170EE00F79016 /* QuartzCore.framework */; };
+		4C722BB5230170F900F79016 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BB4230170F900F79016 /* CoreGraphics.framework */; };
+		4C722BB7230170FF00F79016 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BB6230170FF00F79016 /* UIKit.framework */; };
+		4C722BB92301710600F79016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BB82301710600F79016 /* Foundation.framework */; };
+		4C722BBB2301710D00F79016 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BBA2301710D00F79016 /* CFNetwork.framework */; };
+		4C722BBD2301711700F79016 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722BBC2301711700F79016 /* CoreMotion.framework */; };
+		4C722BC02301725400F79016 /* OCTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722BBE2301725400F79016 /* OCTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C722BC12301725400F79016 /* OCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C722BBF2301725400F79016 /* OCTest.m */; };
+		4C722BC42301738C00F79016 /* PayLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722BC32301738C00F79016 /* PayLibrary.h */; };
 		4CD3D2DF23015864007A25AE /* PodLearn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD3D2DD23015864007A25AE /* PodLearn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CD3D2E623015AAB007A25AE /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3D2E523015AAB007A25AE /* First.swift */; };
+		E4C7DAA3FFE5B7883F4B076A /* Pods_PodLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B863E1DBC84DED410BEC3B4 /* Pods_PodLearn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C722BA423016F8A00F79016 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		4C722BA523016F8A00F79016 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		4C722BA8230170BC00F79016 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4C722BAA230170C700F79016 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4C722BAC230170CF00F79016 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4C722BAE230170D900F79016 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4C722BB0230170E700F79016 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		4C722BB2230170EE00F79016 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4C722BB4230170F900F79016 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C722BB6230170FF00F79016 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C722BB82301710600F79016 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C722BBA2301710D00F79016 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4C722BBC2301711700F79016 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4C722BBE2301725400F79016 /* OCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTest.h; sourceTree = "<group>"; };
+		4C722BBF2301725400F79016 /* OCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTest.m; sourceTree = "<group>"; };
+		4C722BC22301738300F79016 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		4C722BC32301738C00F79016 /* PayLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayLibrary.h; sourceTree = "<group>"; };
 		4CD3D2DA23015864007A25AE /* PodLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD3D2DD23015864007A25AE /* PodLearn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodLearn.h; sourceTree = "<group>"; };
 		4CD3D2DE23015864007A25AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD3D2E523015AAB007A25AE /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		7301EEEC8AFEB4A2375926F6 /* Pods-PodLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLearn.release.xcconfig"; path = "Target Support Files/Pods-PodLearn/Pods-PodLearn.release.xcconfig"; sourceTree = "<group>"; };
+		8B863E1DBC84DED410BEC3B4 /* Pods_PodLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1A5E908042854EEFFCCD8D /* Pods-PodLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLearn.debug.xcconfig"; path = "Target Support Files/Pods-PodLearn/Pods-PodLearn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,17 +60,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C722BBD2301711700F79016 /* CoreMotion.framework in Frameworks */,
+				4C722BBB2301710D00F79016 /* CFNetwork.framework in Frameworks */,
+				4C722BB92301710600F79016 /* Foundation.framework in Frameworks */,
+				4C722BB7230170FF00F79016 /* UIKit.framework in Frameworks */,
+				4C722BB5230170F900F79016 /* CoreGraphics.framework in Frameworks */,
+				4C722BB3230170EE00F79016 /* QuartzCore.framework in Frameworks */,
+				4C722BB1230170E700F79016 /* CoreText.framework in Frameworks */,
+				4C722BAF230170D900F79016 /* CoreTelephony.framework in Frameworks */,
+				4C722BAD230170CF00F79016 /* SystemConfiguration.framework in Frameworks */,
+				4C722BAB230170C700F79016 /* libz.tbd in Frameworks */,
+				4C722BA9230170BC00F79016 /* libc++.tbd in Frameworks */,
+				E4C7DAA3FFE5B7883F4B076A /* Pods_PodLearn.framework in Frameworks */,
+				4C722BA623016F8A00F79016 /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		437CF137ACE1CA2187A5C21C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C722BBC2301711700F79016 /* CoreMotion.framework */,
+				4C722BBA2301710D00F79016 /* CFNetwork.framework */,
+				4C722BB82301710600F79016 /* Foundation.framework */,
+				4C722BB6230170FF00F79016 /* UIKit.framework */,
+				4C722BB4230170F900F79016 /* CoreGraphics.framework */,
+				4C722BB2230170EE00F79016 /* QuartzCore.framework */,
+				4C722BB0230170E700F79016 /* CoreText.framework */,
+				4C722BAE230170D900F79016 /* CoreTelephony.framework */,
+				4C722BAC230170CF00F79016 /* SystemConfiguration.framework */,
+				4C722BAA230170C700F79016 /* libz.tbd */,
+				4C722BA8230170BC00F79016 /* libc++.tbd */,
+				8B863E1DBC84DED410BEC3B4 /* Pods_PodLearn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C722C0923017F3F00F79016 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4C722BA423016F8A00F79016 /* AlipaySDK.framework */,
+				4C722BA523016F8A00F79016 /* AlipaySDK.bundle */,
+				4CD3D2E523015AAB007A25AE /* First.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		4CD3D2D023015864007A25AE = {
 			isa = PBXGroup;
 			children = (
 				4CD3D2DC23015864007A25AE /* PodLearn */,
 				4CD3D2DB23015864007A25AE /* Products */,
+				C7F7F08A25712CC4F17EF834 /* Pods */,
+				437CF137ACE1CA2187A5C21C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,11 +129,24 @@
 		4CD3D2DC23015864007A25AE /* PodLearn */ = {
 			isa = PBXGroup;
 			children = (
+				4C722C0923017F3F00F79016 /* Library */,
+				4C722BC32301738C00F79016 /* PayLibrary.h */,
+				4C722BC22301738300F79016 /* module.modulemap */,
 				4CD3D2DD23015864007A25AE /* PodLearn.h */,
 				4CD3D2DE23015864007A25AE /* Info.plist */,
-				4CD3D2E523015AAB007A25AE /* First.swift */,
+				4C722BBE2301725400F79016 /* OCTest.h */,
+				4C722BBF2301725400F79016 /* OCTest.m */,
 			);
 			path = PodLearn;
+			sourceTree = "<group>";
+		};
+		C7F7F08A25712CC4F17EF834 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E1A5E908042854EEFFCCD8D /* Pods-PodLearn.debug.xcconfig */,
+				7301EEEC8AFEB4A2375926F6 /* Pods-PodLearn.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,6 +156,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C722BC42301738C00F79016 /* PayLibrary.h in Headers */,
+				4C722BC02301725400F79016 /* OCTest.h in Headers */,
 				4CD3D2DF23015864007A25AE /* PodLearn.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,6 +169,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CD3D2E223015864007A25AE /* Build configuration list for PBXNativeTarget "PodLearn" */;
 			buildPhases = (
+				E329F89C4A0B100556392E44 /* [CP] Check Pods Manifest.lock */,
 				4CD3D2D523015864007A25AE /* Headers */,
 				4CD3D2D623015864007A25AE /* Sources */,
 				4CD3D2D723015864007A25AE /* Frameworks */,
@@ -98,7 +195,7 @@
 				TargetAttributes = {
 					4CD3D2D923015864007A25AE = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -124,10 +221,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C722BA723016F8A00F79016 /* AlipaySDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E329F89C4A0B100556392E44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodLearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CD3D2D623015864007A25AE /* Sources */ = {
@@ -135,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD3D2E623015AAB007A25AE /* First.swift in Sources */,
+				4C722BC12301725400F79016 /* OCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +389,9 @@
 		};
 		4CD3D2E323015864007A25AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1A5E908042854EEFFCCD8D /* Pods-PodLearn.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -274,6 +400,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PodLearn",
+					"$(PROJECT_DIR)/PodLearn/Library",
+				);
 				INFOPLIST_FILE = PodLearn/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -284,6 +415,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ifanr.ifanr.PodLearn;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/PodLearn";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,7 +425,9 @@
 		};
 		4CD3D2E423015864007A25AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7301EEEC8AFEB4A2375926F6 /* Pods-PodLearn.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +436,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PodLearn",
+					"$(PROJECT_DIR)/PodLearn/Library",
+				);
 				INFOPLIST_FILE = PodLearn/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +451,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ifanr.ifanr.PodLearn;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/PodLearn";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
