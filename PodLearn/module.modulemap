@@ -1,0 +1,5 @@
+module PayLibrary {
+    header "PayLibrary.h"
+
+    export *
+}

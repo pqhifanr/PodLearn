@@ -9,9 +9,15 @@
 /* Begin PBXBuildFile section */
 		4CD3D2DF23015864007A25AE /* PodLearn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD3D2DD23015864007A25AE /* PodLearn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CD3D2E623015AAB007A25AE /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3D2E523015AAB007A25AE /* First.swift */; };
+		F45EF3DCA34C36F655EFA70F /* Pods_PodLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2437D1FE70A1CFFE3560E35F /* Pods_PodLearn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		026795608CF4C25B592A098F /* Pods-PodLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLearn.release.xcconfig"; path = "Target Support Files/Pods-PodLearn/Pods-PodLearn.release.xcconfig"; sourceTree = "<group>"; };
+		2437D1FE70A1CFFE3560E35F /* Pods_PodLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		260E8076A7915A1185489FC6 /* Pods-PodLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLearn.debug.xcconfig"; path = "Target Support Files/Pods-PodLearn/Pods-PodLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		4C722C0A2302D05600F79016 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		4C722C0B2302D09D00F79016 /* PayLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayLibrary.h; sourceTree = "<group>"; };
 		4CD3D2DA23015864007A25AE /* PodLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD3D2DD23015864007A25AE /* PodLearn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodLearn.h; sourceTree = "<group>"; };
 		4CD3D2DE23015864007A25AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -23,17 +29,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45EF3DCA34C36F655EFA70F /* Pods_PodLearn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E8C0D04F5AA1420D42A5A83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2437D1FE70A1CFFE3560E35F /* Pods_PodLearn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4CD3D2D023015864007A25AE = {
 			isa = PBXGroup;
 			children = (
 				4CD3D2DC23015864007A25AE /* PodLearn */,
 				4CD3D2DB23015864007A25AE /* Products */,
+				DE1D3470DC2FDE8E2000A5D2 /* Pods */,
+				3E8C0D04F5AA1420D42A5A83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +68,19 @@
 				4CD3D2DD23015864007A25AE /* PodLearn.h */,
 				4CD3D2DE23015864007A25AE /* Info.plist */,
 				4CD3D2E523015AAB007A25AE /* First.swift */,
+				4C722C0A2302D05600F79016 /* module.modulemap */,
+				4C722C0B2302D09D00F79016 /* PayLibrary.h */,
 			);
 			path = PodLearn;
+			sourceTree = "<group>";
+		};
+		DE1D3470DC2FDE8E2000A5D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				260E8076A7915A1185489FC6 /* Pods-PodLearn.debug.xcconfig */,
+				026795608CF4C25B592A098F /* Pods-PodLearn.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,6 +101,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CD3D2E223015864007A25AE /* Build configuration list for PBXNativeTarget "PodLearn" */;
 			buildPhases = (
+				2BACCDF09D8A289E0B141EEF /* [CP] Check Pods Manifest.lock */,
 				4CD3D2D523015864007A25AE /* Headers */,
 				4CD3D2D623015864007A25AE /* Sources */,
 				4CD3D2D723015864007A25AE /* Frameworks */,
@@ -128,6 +157,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BACCDF09D8A289E0B141EEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodLearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CD3D2D623015864007A25AE /* Sources */ = {
@@ -265,6 +319,7 @@
 		};
 		4CD3D2E323015864007A25AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260E8076A7915A1185489FC6 /* Pods-PodLearn.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -284,6 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ifanr.ifanr.PodLearn;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/PodLearn";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,6 +348,7 @@
 		};
 		4CD3D2E423015864007A25AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026795608CF4C25B592A098F /* Pods-PodLearn.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -311,6 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ifanr.ifanr.PodLearn;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/PodLearn";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

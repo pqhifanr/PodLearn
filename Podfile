@@ -7,5 +7,6 @@ target 'PodLearn' do
 
   # Pods for PodLearn
   pod 'Moya'
+  pod 'AlipaySDK-iOS'
 
 end

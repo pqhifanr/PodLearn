@@ -7,9 +7,12 @@
 //
 
 import Foundation
+import PayLibrary
 
 @objc class Test: NSObject {
     @objc func sayHello() {
         print("helloworld")
+
+        AlipaySDK.defaultService()
     }
 }
