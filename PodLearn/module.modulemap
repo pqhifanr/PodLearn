@@ -1,4 +1,4 @@
-module PayLibrary {
+module PayModule {
     header "PayLibrary.h"
 
     export *

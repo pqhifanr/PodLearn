@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import PayLibrary
+import PayModule
 
 @objc class Test: NSObject {
     @objc func sayHello() {
