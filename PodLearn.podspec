@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PodLearn'
-  s.version          = '0.0.3'
+  s.version          = '0.0.5'
   s.summary          = '学习 pod'
  
   s.description      = <<-DESC
@@ -16,5 +16,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'PodLearn/*.swift'
   s.dependency 'Moya', '<= 12.0.1'
+  s.dependency 'AlipaySDK'
+  s.module_map = 'PodLearn/module.modulemap'
+  s.static_framework = true
+  s.preserve_path = 'PodLearn/module.modulemap'
+  s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/PodLearn' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/PodLearn' }
 end
 
