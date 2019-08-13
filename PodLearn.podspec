@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'PodLearn/*.swift'
   s.dependency 'Moya', '<= 12.0.1'
-  s.dependency 'AlipaySDK'
+  s.dependency 'AlipaySDK-iOS'
   s.module_map = 'PodLearn/module.modulemap'
   s.static_framework = true
   s.preserve_path = 'PodLearn/module.modulemap'
