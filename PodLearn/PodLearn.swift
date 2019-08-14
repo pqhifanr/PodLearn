@@ -8,8 +8,8 @@
 
 import Foundation
 
-@objc class PodLearn: NSObject {
-    @objc func sayHello() {
+@objc public class PodLearn: NSObject {
+    @objc public func sayHello() {
         print("hello pod")
 
         WechatAuthSDK.init()
