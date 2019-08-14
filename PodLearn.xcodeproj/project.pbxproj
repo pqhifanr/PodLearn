@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4CD3D2DF23015864007A25AE /* PodLearn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD3D2DD23015864007A25AE /* PodLearn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EE649209A4262217BB8B837 /* Pods_PodLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF6D45BA4DA956399BECC9 /* Pods_PodLearn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17747710741CEAE336FA7A2C /* Pods-PodLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLearn.release.xcconfig"; path = "Target Support Files/Pods-PodLearn/Pods-PodLearn.release.xcconfig"; sourceTree = "<group>"; };
 		4CD3D2DA23015864007A25AE /* PodLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD3D2DD23015864007A25AE /* PodLearn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodLearn.h; sourceTree = "<group>"; };
 		4CD3D2DE23015864007A25AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85844B442B3ED87958E33261 /* Pods-PodLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLearn.debug.xcconfig"; path = "Target Support Files/Pods-PodLearn/Pods-PodLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		CAEF6D45BA4DA956399BECC9 /* Pods_PodLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE649209A4262217BB8B837 /* Pods_PodLearn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +37,8 @@
 			children = (
 				4CD3D2DC23015864007A25AE /* PodLearn */,
 				4CD3D2DB23015864007A25AE /* Products */,
+				C6FFA8397EA261ECA0A3587B /* Pods */,
+				F1D2C16B0FC99B5D8235F3CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +59,24 @@
 			path = PodLearn;
 			sourceTree = "<group>";
 		};
+		C6FFA8397EA261ECA0A3587B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85844B442B3ED87958E33261 /* Pods-PodLearn.debug.xcconfig */,
+				17747710741CEAE336FA7A2C /* Pods-PodLearn.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1D2C16B0FC99B5D8235F3CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF6D45BA4DA956399BECC9 /* Pods_PodLearn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -70,6 +95,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CD3D2E223015864007A25AE /* Build configuration list for PBXNativeTarget "PodLearn" */;
 			buildPhases = (
+				07758D7E9A482F154B8B782E /* [CP] Check Pods Manifest.lock */,
 				4CD3D2D523015864007A25AE /* Headers */,
 				4CD3D2D623015864007A25AE /* Sources */,
 				4CD3D2D723015864007A25AE /* Frameworks */,
@@ -124,6 +150,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07758D7E9A482F154B8B782E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodLearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CD3D2D623015864007A25AE /* Sources */ = {
@@ -260,6 +311,7 @@
 		};
 		4CD3D2E323015864007A25AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85844B442B3ED87958E33261 /* Pods-PodLearn.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -285,6 +337,7 @@
 		};
 		4CD3D2E423015864007A25AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17747710741CEAE336FA7A2C /* Pods-PodLearn.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
