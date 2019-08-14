@@ -1,0 +1,5 @@
+module PaySDK {
+    header "PaySDK.h"
+
+    export *
+}
