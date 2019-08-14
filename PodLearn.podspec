@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source_files = 'PodLearn/*'
   s.dependency 'Moya', '<= 12.0.1'
 
-  s.vendored_libraries = 'MinCloud/PayLibrary/WX/*.a'
+  s.vendored_libraries = 'PodLearn/libWeChatSDK.a'
   s.frameworks = "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork","CoreGraphics"
   s.libraries = "z", "sqlite3.0", "c++"
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-Objc -all_load' }
