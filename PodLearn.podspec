@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/pqhifanr/PodLearn.git', :tag => s.version }
  
   s.ios.deployment_target = '9.0'
-  s.source_files = 'PodLearn/*'
+  s.source_files = 'PodLearn/*.{h,m,swift}'
   s.dependency 'Moya', '<= 12.0.1'
 
   s.vendored_libraries = 'PodLearn/libWeChatSDK.a'
