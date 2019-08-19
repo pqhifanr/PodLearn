@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C722C542303ACDD00F79016 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722C4F2303ACDC00F79016 /* WXApiObject.h */; };
-		4C722C552303ACDD00F79016 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722C502303ACDD00F79016 /* WXApi.h */; };
+		4C722C542303ACDD00F79016 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722C4F2303ACDC00F79016 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C722C552303ACDD00F79016 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722C502303ACDD00F79016 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C722C562303ACDD00F79016 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C512303ACDD00F79016 /* libWeChatSDK.a */; };
-		4C722C572303ACDD00F79016 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722C522303ACDD00F79016 /* WechatAuthSDK.h */; };
+		4C722C572303ACDD00F79016 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722C522303ACDD00F79016 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C722C592303AD0700F79016 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C582303AD0700F79016 /* SystemConfiguration.framework */; };
 		4C722C5B2303AD1E00F79016 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C5A2303AD1E00F79016 /* libz.tbd */; };
 		4C722C5D2303AD2A00F79016 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C5C2303AD2A00F79016 /* libsqlite3.0.tbd */; };
@@ -27,6 +27,8 @@
 		4C722C74230A407100F79016 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C73230A407100F79016 /* UIKit.framework */; };
 		4C722C76230A407A00F79016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C75230A407A00F79016 /* Foundation.framework */; };
 		4C722C78230A408F00F79016 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C77230A408F00F79016 /* CoreMotion.framework */; };
+		4C722C80230A722900F79016 /* TestOC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722C7E230A722900F79016 /* TestOC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C722C81230A722900F79016 /* TestOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C722C7F230A722900F79016 /* TestOC.m */; };
 		4CD3D2DF23015864007A25AE /* PodLearn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD3D2DD23015864007A25AE /* PodLearn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EE649209A4262217BB8B837 /* Pods_PodLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF6D45BA4DA956399BECC9 /* Pods_PodLearn.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		4C722C73230A407100F79016 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C722C75230A407A00F79016 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C722C77230A408F00F79016 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4C722C7E230A722900F79016 /* TestOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOC.h; sourceTree = "<group>"; };
+		4C722C7F230A722900F79016 /* TestOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestOC.m; sourceTree = "<group>"; };
 		4CD3D2DA23015864007A25AE /* PodLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD3D2DD23015864007A25AE /* PodLearn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodLearn.h; sourceTree = "<group>"; };
 		4CD3D2DE23015864007A25AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				4C722C6A2303AE4100F79016 /* module.modulemap */,
 				4C722C6C230A401900F79016 /* AlipaySDK.bundle */,
 				4C722C6B230A401900F79016 /* AlipaySDK.framework */,
+				4C722C7E230A722900F79016 /* TestOC.h */,
+				4C722C7F230A722900F79016 /* TestOC.m */,
 			);
 			path = PodLearn;
 			sourceTree = "<group>";
@@ -161,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C722C552303ACDD00F79016 /* WXApi.h in Headers */,
+				4C722C80230A722900F79016 /* TestOC.h in Headers */,
 				4C722C572303ACDD00F79016 /* WechatAuthSDK.h in Headers */,
 				4CD3D2DF23015864007A25AE /* PodLearn.h in Headers */,
 				4C722C542303ACDD00F79016 /* WXApiObject.h in Headers */,
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C722C692303ADF400F79016 /* PodLearn.swift in Sources */,
+				4C722C81230A722900F79016 /* TestOC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
