@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C722C532303ACDD00F79016 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C722C4E2303ACDC00F79016 /* README.txt */; };
 		4C722C542303ACDD00F79016 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722C4F2303ACDC00F79016 /* WXApiObject.h */; };
 		4C722C552303ACDD00F79016 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C722C502303ACDD00F79016 /* WXApi.h */; };
 		4C722C562303ACDD00F79016 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C512303ACDD00F79016 /* libWeChatSDK.a */; };
@@ -21,13 +20,19 @@
 		4C722C652303AD5200F79016 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C642303AD5200F79016 /* CFNetwork.framework */; };
 		4C722C672303AD5B00F79016 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C662303AD5B00F79016 /* CoreGraphics.framework */; };
 		4C722C692303ADF400F79016 /* PodLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C722C682303ADF400F79016 /* PodLearn.swift */; };
+		4C722C6D230A401A00F79016 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C6B230A401900F79016 /* AlipaySDK.framework */; };
+		4C722C6E230A401A00F79016 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C722C6C230A401900F79016 /* AlipaySDK.bundle */; };
+		4C722C70230A405E00F79016 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C6F230A405E00F79016 /* QuartzCore.framework */; };
+		4C722C72230A406800F79016 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C71230A406700F79016 /* CoreText.framework */; };
+		4C722C74230A407100F79016 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C73230A407100F79016 /* UIKit.framework */; };
+		4C722C76230A407A00F79016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C75230A407A00F79016 /* Foundation.framework */; };
+		4C722C78230A408F00F79016 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C722C77230A408F00F79016 /* CoreMotion.framework */; };
 		4CD3D2DF23015864007A25AE /* PodLearn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD3D2DD23015864007A25AE /* PodLearn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EE649209A4262217BB8B837 /* Pods_PodLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF6D45BA4DA956399BECC9 /* Pods_PodLearn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17747710741CEAE336FA7A2C /* Pods-PodLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLearn.release.xcconfig"; path = "Target Support Files/Pods-PodLearn/Pods-PodLearn.release.xcconfig"; sourceTree = "<group>"; };
-		4C722C4E2303ACDC00F79016 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		4C722C4F2303ACDC00F79016 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		4C722C502303ACDD00F79016 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		4C722C512303ACDD00F79016 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
@@ -42,6 +47,13 @@
 		4C722C662303AD5B00F79016 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4C722C682303ADF400F79016 /* PodLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodLearn.swift; sourceTree = "<group>"; };
 		4C722C6A2303AE4100F79016 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		4C722C6B230A401900F79016 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		4C722C6C230A401900F79016 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		4C722C6F230A405E00F79016 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4C722C71230A406700F79016 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		4C722C73230A407100F79016 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C722C75230A407A00F79016 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C722C77230A408F00F79016 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		4CD3D2DA23015864007A25AE /* PodLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD3D2DD23015864007A25AE /* PodLearn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodLearn.h; sourceTree = "<group>"; };
 		4CD3D2DE23015864007A25AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,12 +66,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C722C672303AD5B00F79016 /* CoreGraphics.framework in Frameworks */,
+				4C722C78230A408F00F79016 /* CoreMotion.framework in Frameworks */,
 				4C722C652303AD5200F79016 /* CFNetwork.framework in Frameworks */,
+				4C722C76230A407A00F79016 /* Foundation.framework in Frameworks */,
+				4C722C74230A407100F79016 /* UIKit.framework in Frameworks */,
+				4C722C72230A406800F79016 /* CoreText.framework in Frameworks */,
+				4C722C70230A405E00F79016 /* QuartzCore.framework in Frameworks */,
+				4C722C672303AD5B00F79016 /* CoreGraphics.framework in Frameworks */,
 				4C722C632303AD4700F79016 /* CoreTelephony.framework in Frameworks */,
 				4C722C612303AD3C00F79016 /* Security.framework in Frameworks */,
 				4C722C5F2303AD3400F79016 /* libc++.tbd in Frameworks */,
 				4C722C5D2303AD2A00F79016 /* libsqlite3.0.tbd in Frameworks */,
+				4C722C6D230A401A00F79016 /* AlipaySDK.framework in Frameworks */,
 				4C722C5B2303AD1E00F79016 /* libz.tbd in Frameworks */,
 				4C722C592303AD0700F79016 /* SystemConfiguration.framework in Frameworks */,
 				4C722C562303ACDD00F79016 /* libWeChatSDK.a in Frameworks */,
@@ -92,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				4C722C512303ACDD00F79016 /* libWeChatSDK.a */,
-				4C722C4E2303ACDC00F79016 /* README.txt */,
 				4C722C522303ACDD00F79016 /* WechatAuthSDK.h */,
 				4C722C502303ACDD00F79016 /* WXApi.h */,
 				4C722C4F2303ACDC00F79016 /* WXApiObject.h */,
@@ -100,6 +117,8 @@
 				4CD3D2DE23015864007A25AE /* Info.plist */,
 				4C722C682303ADF400F79016 /* PodLearn.swift */,
 				4C722C6A2303AE4100F79016 /* module.modulemap */,
+				4C722C6C230A401900F79016 /* AlipaySDK.bundle */,
+				4C722C6B230A401900F79016 /* AlipaySDK.framework */,
 			);
 			path = PodLearn;
 			sourceTree = "<group>";
@@ -116,6 +135,11 @@
 		F1D2C16B0FC99B5D8235F3CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C722C77230A408F00F79016 /* CoreMotion.framework */,
+				4C722C75230A407A00F79016 /* Foundation.framework */,
+				4C722C73230A407100F79016 /* UIKit.framework */,
+				4C722C71230A406700F79016 /* CoreText.framework */,
+				4C722C6F230A405E00F79016 /* QuartzCore.framework */,
 				4C722C662303AD5B00F79016 /* CoreGraphics.framework */,
 				4C722C642303AD5200F79016 /* CFNetwork.framework */,
 				4C722C622303AD4700F79016 /* CoreTelephony.framework */,
@@ -202,7 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C722C532303ACDD00F79016 /* README.txt in Resources */,
+				4C722C6E230A401A00F79016 /* AlipaySDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +403,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PodLearn",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
@@ -432,6 +460,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PodLearn",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",

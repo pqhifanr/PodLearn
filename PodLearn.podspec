@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PodLearn'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Pay iOS SDK'
  
   s.description      = <<-DESC
@@ -17,8 +17,9 @@ Pod::Spec.new do |s|
   s.source_files = 'PodLearn/*'
   s.dependency 'Moya', '<= 12.0.1'
 
-  s.vendored_libraries = 'PodLearn/libWeChatSDK.a'
-  s.frameworks = "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork","CoreGraphics"
+  s.vendored_libraries = 'PodLearn/libWeChatSDK.a', 'PodLearn/AlipaySDK.framework'
+  s.resource = 'PodLearn/AlipaySDK.bundle'
+  s.frameworks = "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork","CoreGraphics", "QuartzCore", "CoreText", "CoreMotion"
   s.libraries = "z", "sqlite3.0", "c++"
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-Objc -all_load' }
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load' }
