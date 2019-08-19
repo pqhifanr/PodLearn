@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source_files = 'PodLearn/*'
   s.dependency 'Moya', '<= 12.0.1'
 
-  s.vendored_libraries = 'PodLearn/libWeChatSDK.a', 'PodLearn/AlipaySDK.framework'
+  s.vendored_libraries = 'PodLearn/libWeChatSDK.a'
   s.resource = 'PodLearn/AlipaySDK.bundle'
   s.frameworks = "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork","CoreGraphics", "QuartzCore", "CoreText", "CoreMotion"
   s.libraries = "z", "sqlite3.0", "c++"
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/PodLearn' }
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/PodLearn' }
 
-# s.ios.vendored_frameworks = 'PodLearn/AlipaySDK.framework'
+  s.ios.vendored_frameworks = 'PodLearn/AlipaySDK.framework'
 #  s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
 #  s.libraries = "z", "c++"
 #  s.resource = 'PodLearn/AlipaySDK.bundle'
