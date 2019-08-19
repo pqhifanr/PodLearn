@@ -24,8 +24,6 @@ Pod::Spec.new do |s|
     ali.libraries = "z", "c++"
     ali.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/PodLearn' }
     ali.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/PodLearn' }
-    ali.module_map = 'PodLearn/module.modulemap'
-    ali.static_framework = true
   end
 
   s.subspec 'WeChat' do |wc|
@@ -34,7 +32,7 @@ Pod::Spec.new do |s|
     wc.frameworks = "SystemConfiguration", "CoreTelephony", "Security", "CoreGraphics", "CFNetwork"
     wc.libraries = "z", "c++", "sqlite3.0"
     wc.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_CONFIGURATION_BUILD_DIR)/PodLearn" }
-    wc.module_map = 'PodLearn/module.modulemap'
-    wc.static_framework = true
   end
+  s.module_map = 'PodLearn/module.modulemap'
+  s.static_framework = true
 end
