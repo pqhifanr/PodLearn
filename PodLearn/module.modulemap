@@ -16,8 +16,7 @@ module AliPayModule {
     export *
 }
 
-module PodLearn {
-    header "PodLearn.h"
-
+framework module PodLearn {
+    umbrella header "PodLearn.h"
     export *
 }
