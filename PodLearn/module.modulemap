@@ -15,3 +15,9 @@ module AliPayModule {
 
     export *
 }
+
+module PodLearn {
+    header "PodLearn.h"
+
+    export *
+}

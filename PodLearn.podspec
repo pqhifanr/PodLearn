@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PodLearn'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'Pay iOS SDK'
  
   s.description      = <<-DESC
@@ -14,8 +14,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/pqhifanr/PodLearn.git', :tag => s.version }
  
   s.ios.deployment_target = '9.0'
-  s.source_files = 'PodLearn/*.{swift}'
-  s.dependency 'Moya', '<= 12.0.1'
+  s.subspec 'Core' do |core|
+    core.source_files = 'PodLearn/*.{swift}', 'PodLearn/PodLearn.h'
+    core.dependency 'Moya', '<= 12.0.1'
+  end
 
   s.subspec 'Alipay' do |ali|
     ali.resource = 'PodLearn/AlipaySDK.bundle'
