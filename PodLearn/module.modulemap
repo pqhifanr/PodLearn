@@ -1,7 +1,16 @@
-module PodLearn {
+module WXPayModule {
     header "WXApi.h"
     header "WXApiObject.h"
     header "WechatAuthSDK.h"
+    //header "AlipaySDK.framework/Headers/AlipaySDK.h"
+
+    export *
+}
+
+module AliPayModule {
+//    header "WXApi.h"
+//    header "WXApiObject.h"
+//    header "WechatAuthSDK.h"
     header "AlipaySDK.framework/Headers/AlipaySDK.h"
 
     export *
