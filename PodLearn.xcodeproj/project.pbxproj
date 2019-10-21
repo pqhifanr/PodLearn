@@ -53,6 +53,7 @@
 		4C722C73230A407100F79016 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C722C75230A407A00F79016 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C722C77230A408F00F79016 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4C8B4302235DBF8600482D98 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		4CD3D2DA23015864007A25AE /* PodLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD3D2DD23015864007A25AE /* PodLearn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodLearn.h; sourceTree = "<group>"; };
 		4CD3D2DE23015864007A25AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,6 +118,7 @@
 				4C722C4F2303ACDC00F79016 /* WXApiObject.h */,
 				4C722C6C230A401900F79016 /* AlipaySDK.bundle */,
 				4C722C6B230A401900F79016 /* AlipaySDK.framework */,
+				4C8B4302235DBF8600482D98 /* module.modulemap */,
 			);
 			path = PodLearn;
 			sourceTree = "<group>";
