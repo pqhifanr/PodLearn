@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PodLearn'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = 'Pay iOS SDK'
  
   s.description      = <<-DESC
@@ -19,23 +19,23 @@ Pod::Spec.new do |s|
     core.dependency 'Moya', '<= 12.0.1'
   end
 
-  s.subspec 'Alipay' do |ali|
-    ali.resource = 'PodLearn/AlipaySDK.bundle'
-    ali.ios.vendored_frameworks = 'PodLearn/AlipaySDK.framework'
-    ali.frameworks = "SystemConfiguration", "CoreTelephony", "CFNetwork", "CoreGraphics", "QuartzCore", "CoreText", "CoreMotion", "UIKit", "Foundation"
-    ali.libraries = "z", "c++"
-    ali.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/PodLearn' }
-    ali.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/PodLearn' }
-  end
-
-  s.subspec 'WeChat' do |wc|
-    wc.source_files = 'PodLearn/*.{h}'
-    wc.vendored_libraries = 'PodLearn/libWeChatSDK.a'
-    wc.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-Objc -all_load' }
-    wc.frameworks = "SystemConfiguration", "CoreTelephony", "Security", "CoreGraphics", "CFNetwork"
-    wc.libraries = "z", "c++", "sqlite3.0"
-    wc.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/PodLearn" }
-  end
-  s.module_map = 'PodLearn/module.modulemap'
-  s.static_framework = true
+#  s.subspec 'Alipay' do |ali|
+#    ali.resource = 'PodLearn/AlipaySDK.bundle'
+#    ali.ios.vendored_frameworks = 'PodLearn/AlipaySDK.framework'
+#    ali.frameworks = "SystemConfiguration", "CoreTelephony", "CFNetwork", "CoreGraphics", "QuartzCore", "CoreText", "CoreMotion", "UIKit", "Foundation"
+#    ali.libraries = "z", "c++"
+#    ali.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/PodLearn' }
+#    ali.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/PodLearn' }
+#  end
+#
+#  s.subspec 'WeChat' do |wc|
+#    wc.source_files = 'PodLearn/*.{h}'
+#    wc.vendored_libraries = 'PodLearn/libWeChatSDK.a'
+#    wc.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-Objc -all_load' }
+#    wc.frameworks = "SystemConfiguration", "CoreTelephony", "Security", "CoreGraphics", "CFNetwork"
+#    wc.libraries = "z", "c++", "sqlite3.0"
+#    wc.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/PodLearn" }
+#  end
+#  s.module_map = 'PodLearn/module.modulemap'
+#  s.static_framework = true
 end

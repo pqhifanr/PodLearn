@@ -7,13 +7,12 @@
 //
 
 import Foundation
-import WXPayModule
 
 @objc public class PodLearn: NSObject {
     @objc public func sayHello() {
         print("hello pod")
 
-        WechatAuthSDK.init()
+        //WechatAuthSDK.init()
 //        AlipaySDK.defaultService()?.payOrder("test", fromScheme: "2019011563040122", callback: { (result) in
 //            print("result: \(result)")
 //        })
