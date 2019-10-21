@@ -36,6 +36,6 @@ Pod::Spec.new do |s|
     wc.libraries = "z", "c++", "sqlite3.0"
     wc.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/PodLearn" }
   end
-  s.preserve_paths = 'PodLearn/module.modulemap'
+  s.module_map = 'PodLearn/module.modulemap'
 #  s.static_framework = true
 end

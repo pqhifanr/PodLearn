@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import PodLearnPay
 
 @objc public class PodLearn: NSObject {
     @objc public func sayHello() {
