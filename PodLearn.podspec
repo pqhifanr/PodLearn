@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PodLearn'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'Pay iOS SDK'
  
   s.description      = <<-DESC
@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
     wc.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/PodLearn" }
   end
   s.module_map = 'PodLearn/module.modulemap'
-#  s.static_framework = true
+   s.static_framework = true
 end
