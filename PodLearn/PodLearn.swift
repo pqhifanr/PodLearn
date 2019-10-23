@@ -17,4 +17,8 @@ import Foundation
 //            print("result: \(result)")
 //        })
     }
+    
+    @objc public func sayHelloToPod() {
+        print("Hello, I'm pod")
+    }
 }

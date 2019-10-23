@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PodLearn'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'Pay iOS SDK'
  
   s.description      = <<-DESC
