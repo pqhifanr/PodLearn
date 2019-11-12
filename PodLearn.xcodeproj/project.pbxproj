@@ -88,6 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C79BCC5237A91F1007A64AE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4C722C512303ACDD00F79016 /* libWeChatSDK.a */,
+				4C722C522303ACDD00F79016 /* WechatAuthSDK.h */,
+				4C722C502303ACDD00F79016 /* WXApi.h */,
+				4C722C4F2303ACDC00F79016 /* WXApiObject.h */,
+				4C722C6C230A401900F79016 /* AlipaySDK.bundle */,
+				4C722C6B230A401900F79016 /* AlipaySDK.framework */,
+				4C8B4302235DBF8600482D98 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		4CD3D2D023015864007A25AE = {
 			isa = PBXGroup;
 			children = (
@@ -109,16 +123,10 @@
 		4CD3D2DC23015864007A25AE /* PodLearn */ = {
 			isa = PBXGroup;
 			children = (
+				4C79BCC5237A91F1007A64AE /* include */,
 				4CD3D2DE23015864007A25AE /* Info.plist */,
 				4C722C682303ADF400F79016 /* PodLearn.swift */,
 				4CD3D2DD23015864007A25AE /* PodLearn.h */,
-				4C722C512303ACDD00F79016 /* libWeChatSDK.a */,
-				4C722C522303ACDD00F79016 /* WechatAuthSDK.h */,
-				4C722C502303ACDD00F79016 /* WXApi.h */,
-				4C722C4F2303ACDC00F79016 /* WXApiObject.h */,
-				4C722C6C230A401900F79016 /* AlipaySDK.bundle */,
-				4C722C6B230A401900F79016 /* AlipaySDK.framework */,
-				4C8B4302235DBF8600482D98 /* module.modulemap */,
 			);
 			path = PodLearn;
 			sourceTree = "<group>";
@@ -406,14 +414,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/PodLearn",
+					"$(PROJECT_DIR)/PodLearn/include",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Moya/Moya.framework/Headers\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Result/Result.framework/Headers\"",
-					"$(SRCROOT)/PodLearn",
+					"$(SRCROOT)/PodLearn/include",
 				);
 				INFOPLIST_FILE = PodLearn/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -425,7 +433,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/PodLearn",
+					"$(PROJECT_DIR)/PodLearn/include",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -467,14 +475,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/PodLearn",
+					"$(PROJECT_DIR)/PodLearn/include",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Moya/Moya.framework/Headers\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Result/Result.framework/Headers\"",
-					"$(SRCROOT)/PodLearn",
+					"$(SRCROOT)/PodLearn/include",
 				);
 				INFOPLIST_FILE = PodLearn/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -486,7 +494,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/PodLearn",
+					"$(PROJECT_DIR)/PodLearn/include",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
