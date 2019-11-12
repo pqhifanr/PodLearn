@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "PodLearn",
             dependencies: ["Moya"],
-            path: "PodLearn"),
+           // path: "PodLearn"),
         .testTarget(
             name: "PodLearnTests",
             dependencies: ["PodLearn"]),
